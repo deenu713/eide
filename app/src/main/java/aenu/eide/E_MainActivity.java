@@ -152,10 +152,10 @@ public class E_MainActivity extends AppCompatActivity implements RequestListener
         initEditor();
         initActionBar();
 
-        if (!E_Application.getAppVersion().equals(
-                E_Application.getConfigVersion(this)))
-            E_Installer.install(this,
-                    ProgressDialog.show(this, null, ">>>>", true, false));
+     //   if (!E_Application.getAppVersion().equals(
+       //         E_Application.getConfigVersion(this)))
+      //      E_Installer.install(this,
+      //              ProgressDialog.show(this, null, ">>>>", true, false));
 
     }
 
