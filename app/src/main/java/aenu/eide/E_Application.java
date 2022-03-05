@@ -95,11 +95,11 @@ public class E_Application extends Application
     }
     
     public static final File getProjectDir(){
-        return new File("/sdcard/eide");      
+        return new File("/storage/emulated/0/eide");      
     }
     
     public static final File getAppPrivateDir(){
-        return new File("/sdcard/.eide");      
+        return new File("/storage/emulated/0/.eide");      
     }
     
     public static final URL getNdkUrl() throws MalformedURLException{
