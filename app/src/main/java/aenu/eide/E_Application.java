@@ -192,7 +192,7 @@ public class E_Application extends Application
 			//intent.putExtra(E_ErrorActivity.EXTRA_ERROR_MESSAGE,getExceptionMessage(p2));
 			//intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			//startActivity(intent);
-			System.exit(0);
+		//	System.exit(0);
         }              
         
         private String getExceptionMessage(Throwable e){
