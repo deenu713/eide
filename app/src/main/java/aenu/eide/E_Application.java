@@ -188,10 +188,10 @@ public class E_Application extends Application
     private final Thread.UncaughtExceptionHandler H=new Thread.UncaughtExceptionHandler(){
         @Override
         public void uncaughtException(Thread p1, Throwable p2){
-			Intent intent=new Intent(E_ErrorActivity.ACTION_ERROR);
-			intent.putExtra(E_ErrorActivity.EXTRA_ERROR_MESSAGE,getExceptionMessage(p2));
-			intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-			startActivity(intent);
+			//Intent intent=new Intent(E_ErrorActivity.ACTION_ERROR);
+			//intent.putExtra(E_ErrorActivity.EXTRA_ERROR_MESSAGE,getExceptionMessage(p2));
+			//intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+			//startActivity(intent);
 			System.exit(0);
         }              
         
